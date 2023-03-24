@@ -1,0 +1,81 @@
+.panel {
+  background-color: #1e242e;
+  padding: 40px;
+  border-radius: 40px;
+  width: 300px;
+  height: 300px;
+  color: #fff;
+  text-align: left;
+}
+
+.star {
+  background: #272e3f;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.description {
+  color: #8e949e;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.rating {
+  background-color: #282e38;
+  color: #fff;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+.rating:hover {
+  background: #7d8796;
+}
+
+.selectedRating {
+  background-color: #fb7b19;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.submit {
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+  background-color: #fb7b19;
+  color: #fff;
+  border-radius: 40px;
+}
+.submit:hover {
+  background: #fff;
+  color: #fb7b19;
+}
+
+/* ----thank you panel---- */
+.thankYouPanel {
+  background-color: #1e242e;
+  padding: 40px;
+  border-radius: 40px;
+  width: 300px;
+  height: 300px;
+  color: #fff;
+}
+
+.selected {
+  background-color: #2e343e;
+  color: #fb7b197e;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 40px;
+  font-size: 12px;
+  display: inline-block;
+}
